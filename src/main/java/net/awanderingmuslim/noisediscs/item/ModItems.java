@@ -14,8 +14,8 @@ import java.util.function.Function;
 public class ModItems {
 
 
-    public static final Item EID_TAKBIR_MUSIC_DISC = registerItem("eid_takbir_music_disc",
-            setting -> new Item(setting.jukeboxPlayable(ModSounds.EID_TAKBIR_KEY).maxCount(1)));
+    public static final Item WHITE_NOISE_MUSIC_DISC = registerItem("white_noise_music_disc",
+            setting -> new Item(setting.jukeboxPlayable(ModSounds.WHITE_NOISE_KEY).maxCount(1)));
 
 
     private static Item registerItem(String name, Function<Item.Settings, Item> function) {

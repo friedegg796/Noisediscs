@@ -11,9 +11,13 @@ import net.minecraft.util.Identifier;
 
 public class ModSounds {
 
-    public static final SoundEvent EID_TAKBIR = registerSoundEvent("white_noise");
-    public static final RegistryKey<JukeboxSong> EID_TAKBIR_KEY =
+    public static final SoundEvent WHITE_NOISE = registerSoundEvent("white_noise");
+    public static final RegistryKey<JukeboxSong> WHITE_NOISE_KEY =
             RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(Noisediscs.MOD_ID, "white_noise"));
+
+    public static final SoundEvent VELVET_NOISE = registerSoundEvent("velvet_noise");
+    public static final RegistryKey<JukeboxSong> VELVET_NOISE_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(Noisediscs.MOD_ID, "velvet_noise"));
 
 
     private static SoundEvent registerSoundEvent(String name) {
