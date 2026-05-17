@@ -18,6 +18,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.WHITE_NOISE);
                         entries.add(ModItems.VELVET_NOISE);
+                        entries.add(ModItems.GRAY_NOISE);
 
 
                     }).build());

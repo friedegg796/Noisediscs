@@ -21,6 +21,9 @@ public class ModItems {
             setting -> new Item(setting.jukeboxPlayable(ModSounds.VELVET_NOISE_KEY).maxCount(1)));
 
 
+    public static final Item GRAY_NOISE = registerItem("gray_noise", settings -> new Item(settings.jukeboxPlayable(ModSounds.GRAY_NOISE_KEY).maxCount(1)));
+
+
     // no you don't touch these below things
     private static Item registerItem(String name, Function<Item.Settings, Item> function) {
         return Registry.register(Registries.ITEM, Identifier.of(Noisediscs.MOD_ID, name),

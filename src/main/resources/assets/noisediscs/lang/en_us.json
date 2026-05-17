@@ -1,5 +1,7 @@
 {
   "item.noisediscs.white_noise": "Noise Disc",
   "item.noisediscs.white_noise.desc": "White Noise",
+  "item.noisediscs.velvet_noise": "Noise Disc",
+  "item.noisediscs.velvet_noise.desc": "TheDSPguy -- Velvet Noise (CC BY-SA 4.0)",
   "itemgroup.noisediscs.noisediscs": "Noisediscs"
 }

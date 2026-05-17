@@ -19,6 +19,10 @@ public class ModSounds {
     public static final RegistryKey<JukeboxSong> VELVET_NOISE_KEY =
             RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(Noisediscs.MOD_ID, "velvet_noise"));
 
+    public static final SoundEvent GRAY_NOISE = registerSoundEvent("gray_noise");
+    public static final RegistryKey<JukeboxSong> GRAY_NOISE_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(Noisediscs.MOD_ID, "gray_noise"));
+
 
     private static SoundEvent registerSoundEvent(String name) {
         Identifier id = Identifier.of(Noisediscs.MOD_ID, name);
