@@ -14,10 +14,14 @@ import java.util.function.Function;
 public class ModItems {
 
 
-    public static final Item WHITE_NOISE_MUSIC_DISC = registerItem("white_noise_music_disc",
+    public static final Item WHITE_NOISE = registerItem("white_noise",
             setting -> new Item(setting.jukeboxPlayable(ModSounds.WHITE_NOISE_KEY).maxCount(1)));
 
+    public static final Item VELVET_NOISE = registerItem("velvet_noise",
+            setting -> new Item(setting.jukeboxPlayable(ModSounds.VELVET_NOISE_KEY).maxCount(1)));
 
+
+    // no you don't touch these below things
     private static Item registerItem(String name, Function<Item.Settings, Item> function) {
         return Registry.register(Registries.ITEM, Identifier.of(Noisediscs.MOD_ID, name),
                 function.apply(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Noisediscs.MOD_ID, name)))));

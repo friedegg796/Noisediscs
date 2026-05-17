@@ -1,5 +1,5 @@
 {
-  "item.noisediscs.white_noise_music_disc": "Noise Disc",
-  "item.noisediscs.white_noise_music_disc.desc": "White Noise",
+  "item.noisediscs.white_noise": "Noise Disc",
+  "item.noisediscs.white_noise.desc": "White Noise",
   "itemgroup.noisediscs.noisediscs": "Noisediscs"
 }

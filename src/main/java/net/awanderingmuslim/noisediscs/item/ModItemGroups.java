@@ -13,11 +13,11 @@ import net.awanderingmuslim.noisediscs.item.ModItems;
 public class ModItemGroups {
     public static final ItemGroup NOISEDISCS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(Noisediscs.MOD_ID, "noisediscs_discs"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.WHITE_NOISE_MUSIC_DISC))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.WHITE_NOISE))
                     .displayName(Text.translatable("itemgroup.noisediscs.noisediscs"))
                     .entries((displayContext, entries) -> {
-                        entries.add(ModItems.WHITE_NOISE_MUSIC_DISC);
-                        // entries.add(ModItems.VELVET_NOISE_MUSIC_DISC);
+                        entries.add(ModItems.WHITE_NOISE);
+                        entries.add(ModItems.VELVET_NOISE);
 
 
                     }).build());

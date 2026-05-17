@@ -18,7 +18,7 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-        itemModelGenerator.register(ModItems.WHITE_NOISE_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.WHITE_NOISE, Models.GENERATED);
 
 
     }
