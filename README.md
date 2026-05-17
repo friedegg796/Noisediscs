@@ -1,10 +1,6 @@
 # Noisediscs
 
-<img alt="Noisediscs icon, has the word MUSLIM, a white disc below it, then the word DISCS " src="src/main/resources/assets/noisediscs/icon.png" height=500px>
-
-Use the Jukebox for more Islamic audios!
-
-As of now, it only adds a disc that plays the Eid Takbir, for 17 minutes and 7 seconds, but I will add more inshaAllah.
+NOISE!
 
 ## I got a question/suggestion/problem
 
