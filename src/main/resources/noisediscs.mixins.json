@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "net.awanderingmuslim.noisediscs.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MuslimdiscsMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

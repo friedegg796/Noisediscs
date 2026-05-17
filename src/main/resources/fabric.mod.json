@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "noisediscs",
+  "version": "1.0.0",
+  "name": "Noisediscs",
+  "description": "Calming noises await!",
+  "authors": [
+    "AWanderingMuslim/Hasnain Alahi"
+  ],
+  "contact": {
+    "homepage": "https://friedegg796.github.io/noisediscs-modpage/",
+    "sources": "https://github.com/friedegg796/Noisediscs"
+  },
+  "license": "ARR",
+  "icon": "assets/noisediscs/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.awanderingmuslim.noisediscs.Noisediscs"
+    ],
+    "fabric-datagen": [
+      "net.awanderingmuslim.noisediscs.NoisediscsDataGenerator"
+    ],
+    "client": [
+    ],
+    "rei_client": [
+    ]
+  },
+  "mixins": [
+    "noisediscs.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

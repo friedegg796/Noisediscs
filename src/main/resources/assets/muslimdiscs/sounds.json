@@ -1,0 +1,10 @@
+{
+  "white_noise": {
+    "sounds": [
+      {
+        "name": "noisediscs:white_noise",
+        "stream": true
+      }
+    ]
+  }
+}
