@@ -19,6 +19,7 @@ public class ModItemGroups {
                         entries.add(ModItems.WHITE_NOISE);
                         entries.add(ModItems.VELVET_NOISE);
                         entries.add(ModItems.GRAY_NOISE);
+                        entries.add(ModItems.BROWN_NOISE);
 
 
                     }).build());

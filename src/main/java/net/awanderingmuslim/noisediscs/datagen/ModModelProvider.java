@@ -20,6 +20,8 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.WHITE_NOISE, Models.GENERATED);
         itemModelGenerator.register(ModItems.VELVET_NOISE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GRAY_NOISE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BROWN_NOISE, Models.GENERATED);
 
 
     }

@@ -14,5 +14,13 @@
         "stream": true
       }
     ]
+  },
+  "gray_noise": {
+    "sounds": [
+      {
+        "name": "noisediscs:gray_noise",
+        "stream": true
+      }
+    ]
   }
 }

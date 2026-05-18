@@ -1,0 +1,8 @@
+{
+  "comparator_output": 3,
+  "description": {
+    "translate": "item.noisediscs.brown_noise.desc"
+  },
+  "length_in_seconds": 3000,
+  "sound_event": "noisediscs:brown_noise"
+}

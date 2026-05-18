@@ -1,5 +1,9 @@
 // 1.21.11	-999999999-01-01T00:00:00	Noisediscs/Model Definitions
+5bd1c9e547f1e1e21928289b72291b7c91146208 assets/noisediscs/items/brown_noise.json
+6548da4a8d4e652dc1ca646e57118c7ddd83e569 assets/noisediscs/items/gray_noise.json
 016299ca013fbd7300f844cea388f32dcf3a45c2 assets/noisediscs/items/velvet_noise.json
 4c974c68d2517722f91792a633ee9eebfd3e29eb assets/noisediscs/items/white_noise.json
+0c4861379501da00ce70ed0afd2996d3cbcfc29c assets/noisediscs/models/item/brown_noise.json
+50a39973833420ea14ee0fe803103f85daf15cf8 assets/noisediscs/models/item/gray_noise.json
 bd9ae5294b495164bd4fca11ca64b596d3bda4d8 assets/noisediscs/models/item/velvet_noise.json
 d1944518a616a6b06673e4d9ebc3dc4c71421a8a assets/noisediscs/models/item/white_noise.json

@@ -21,7 +21,11 @@ public class ModItems {
             setting -> new Item(setting.jukeboxPlayable(ModSounds.VELVET_NOISE_KEY).maxCount(1)));
 
 
-    public static final Item GRAY_NOISE = registerItem("gray_noise", settings -> new Item(settings.jukeboxPlayable(ModSounds.GRAY_NOISE_KEY).maxCount(1)));
+    public static final Item GRAY_NOISE = registerItem("gray_noise",
+            settings -> new Item(settings.jukeboxPlayable(ModSounds.GRAY_NOISE_KEY).maxCount(1)));
+
+    public static final Item BROWN_NOISE = registerItem("brown_noise",
+            settings -> new Item(settings.jukeboxPlayable(ModSounds.BROWN_NOISE_KEY).maxCount(1)));
 
 
     // no you don't touch these below things
