@@ -15,6 +15,22 @@
       }
     ]
   },
+  "brown_noise": {
+    "sounds": [
+      {
+        "name": "noisediscs:brown_noise",
+        "stream": true
+      }
+    ]
+  },
+  "pink_noise": {
+    "sounds": [
+      {
+        "name": "noisediscs:pink_noise",
+        "stream": true
+      }
+    ]
+  },
   "gray_noise": {
     "sounds": [
       {

@@ -27,6 +27,9 @@ public class ModItems {
     public static final Item BROWN_NOISE = registerItem("brown_noise",
             settings -> new Item(settings.jukeboxPlayable(ModSounds.BROWN_NOISE_KEY).maxCount(1)));
 
+    public static final Item PINK_NOISE = registerItem("pink_noise",
+            settings -> new Item(settings.jukeboxPlayable(ModSounds.PINK_NOISE_KEY).maxCount(1)));
+
 
     // no you don't touch these below things
     private static Item registerItem(String name, Function<Item.Settings, Item> function) {
