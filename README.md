@@ -6,23 +6,23 @@ _This image has an affiliate link, aka I can get a commission (MONEY for me at n
 
 # Noisediscs
 
-NOISE!
+_Satisfying noises here!_
 
-## I got a question/suggestion/problem
+This mod adds discs that play statisfying noises (literally).
 
+Including, but not limited to, Pink, Brown, and White noise.
+
+## Questions/Suggestions/Problems
 Make an [issue](https://github.com/friedegg796/Noisediscs/issues), I'll check it inshaAllah.
 
-### How do I install this...
 
-On [Github](https://github.com/friedegg796/Noisediscs), you have to install zip, unzip it, open your terminal, cd into
-it, and then run <code>./gradlew build </code> (Requires Java), then look for the noisediscs jar file in build/libs of
-the unzipped folder.
+### How do I install...
 
-Or just, go to the [releases](https://github.com/friedegg796/Noisediscs/releases), pick the release you want, and
-install the noisediscs jar file, that also works.....
+On [Github](https://github.com/friedegg796/Noisediscs), you have to install zip, unzip it, open your terminal, cd into it, and then run <code>./gradlew build </code> (Requires Java), then look for the jar file in build/libs of the unzipped folder (Unreleased versions).
+
+Or go to the [releases](https://github.com/friedegg796/Noisediscs/releases), pick the release you want, and install the jar file
 
 ### Could I put your Mod into MY modpack/Use it in my video?
-
 Read the [License](https://github.com/friedegg796/Noisediscs?tab=License-1-ov-file)
 
 ## Credits
